@@ -1,0 +1,38 @@
+.container {
+  margin-top: 20px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+label {
+  padding-left: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: teal !important;
+}
+
+.row .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clickMeBtn {
+  width: 150px;
+  font-size: 20px;
+  width: fit-content;
+}
+
+.card-body {
+  background-color: #f2f2f2;
+  box-shadow: 0 30px 15px rgb(0 0 0 / 0.2);
+}
