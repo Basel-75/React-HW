@@ -26,9 +26,9 @@ class Team extends Component {
             img={member.img}
             name={member.name}
             position={member.position}
-            phone={member.phone}
-            email={member.email}
-            website={member.website}
+            Birthdate={member.Birthdate}
+            City={member.City}
+            Time={member.Time}
           />
         );
       });
@@ -43,7 +43,7 @@ class Team extends Component {
             className="btn clickMeBtn btn-primary btn-lg btn-block"
             onClick={this.clickEvent}
           >
-            انقر هنا لرؤية اعضاء الفريق
+             انقر لمعرفتهم!
           </button>
         </div>
         {this.newMembers}
